@@ -7,4 +7,16 @@
    <groupId>com.unicrim.sdk</groupId>
    <artifactId>unicrim</artifactId>
    <version>1.0</version>
+   
+    <dependencies>
+        <!-- ??????? xstream, ???pom??????,??????jar???-->
+        <!-- maven ????: ??????; ??????,??????????,???-->
+        <dependency>
+			<groupId>com.unicrim.crim_sdk_sources</groupId>
+            <artifactId>crim_sdk_sources</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>crim_sdk-sources.jar</systemPath>
+        </dependency>
+    </dependencies>
 </project>
