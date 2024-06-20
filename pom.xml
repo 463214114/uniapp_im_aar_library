@@ -12,11 +12,11 @@
         <!-- ??????? xstream, ???pom??????,??????jar???-->
         <!-- maven ????: ??????; ??????,??????????,???-->
         <dependency>
-			<groupId>com.unicrim.crim_sdk_sources</groupId>
-            <artifactId>crim_sdk_sources</artifactId>
+			<groupId>com.unicrim.crim_sdk-sources</groupId>
+            <artifactId>crim_sdk-sources</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>crim_sdk-sources.jar</systemPath>
+            <systemPath>${basedir}/crim_sdk-sources.jar</systemPath>
         </dependency>
     </dependencies>
 </project>
