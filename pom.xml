@@ -4,19 +4,7 @@
    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
              http://maven.apache.org/maven-v4_0_0.xsd">
    <modelVersion>4.0.0</modelVersion>
-   <groupId>com.unicrim.sdk</groupId>
-   <artifactId>unicrim</artifactId>
+   <groupId>com.crim.sdk</groupId>
+   <artifactId>crim</artifactId>
    <version>1.0</version>
-   
-    <dependencies>
-        <!-- ??????? xstream, ???pom??????,??????jar???-->
-        <!-- maven ????: ??????; ??????,??????????,???-->
-        <dependency>
-			<groupId>com.unicrim.crim_sdk-sources</groupId>
-            <artifactId>crim_sdk-sources</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/crim_sdk-sources.jar</systemPath>
-        </dependency>
-    </dependencies>
 </project>
